@@ -1,10 +1,10 @@
 ;;; jammer.el --- Punish yourself for using Emacs inefficiently
 
-;; Copyright (C) 2015-2016 Vasilij Schneidermann <v.schneidermann@gmail.com>
+;; Copyright (C) 2015 Vasilij Schneidermann <mail@vasilij.de>
 
-;; Author: Vasilij Schneidermann <v.schneidermann@gmail.com>
-;; URL: https://github.com/wasamasa/jammer
-;; Version: 0.1.1
+;; Author: Vasilij Schneidermann <mail@vasilij.de>
+;; URL: https://depp.brause.cc/jammer
+;; Version: 0.1.2
 ;; Keywords: games
 
 ;; This file is NOT part of GNU Emacs.
@@ -29,8 +29,7 @@
 ;; This global minor mode allows you to slow down command execution
 ;; globally in Emacs.
 
-;; See the README for more info:
-;; https://github.com/wasamasa/jammer
+;; See the README for more info: https://depp.brause.cc/jammer
 
 ;;; Code:
 
