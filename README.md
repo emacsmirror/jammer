@@ -7,8 +7,7 @@ for inefficiently using Emacs.
 
 ## Installation
 
-Install from [Marmalade] or [MELPA] with
-`M-x package-install RET jammer RET`.
+Install from [MELPA] with `M-x package-install RET jammer RET`.
 
 ## Usage
 
@@ -69,7 +68,6 @@ complex than keeping track of your oven.  If they behave as expected
 with it enabled, chances are their handling of input is robust enough.
 
 [image]: img/jammer.gif
-[Marmalade]: https://marmalade-repo.org/
 [MELPA]: http://melpa.org/
 [vim-molasses]: https://github.com/0x0dea/vim-molasses
 [vim-hardtime]: https://github.com/takac/vim-hardtime
