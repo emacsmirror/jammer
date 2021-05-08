@@ -5,6 +5,7 @@
 ;; Author: Vasilij Schneidermann <mail@vasilij.de>
 ;; URL: https://depp.brause.cc/jammer
 ;; Version: 0.1.2
+;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: games
 
 ;; This file is NOT part of GNU Emacs.
@@ -256,6 +257,7 @@ This global minor mode allows you to slow down command execution
 globally in Emacs."
   :global t
   (if jammer-mode
+      ;; TODO: is this correct? wouldn't `pre-command-hook' be better?
       (add-hook 'post-command-hook 'jammer)
     (remove-hook 'post-command-hook 'jammer)))
 
